@@ -1,8 +1,3 @@
-// Import web3.js library (make sure to include it in your project)
-// For Ethereum-like networks
-const Web3 = require('web3');
-const web3 = new Web3(Web3.givenProvider || 'https://base-mainnet.blastapi.io/8b34d4ba-a462-4b93-bd9e-f687b0402486'); // Update with your network's URL
-
 // Set the address of your smart contract
 const contractAddress = '0x65b560a48Fe185EEfa9ead1350974E613bfE514d'; // Update with your contract's address
 
